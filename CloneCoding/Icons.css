@@ -1,0 +1,38 @@
+.Icons_Container {
+  width: 1168.800px;
+  height: 168px;
+  padding-top: 32px;
+  padding-right: 0px;
+  padding-bottom: 29px;
+  padding-left: 41px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Icons_Container li {  
+  width: 163px;
+  height: 107px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Icons_Container img {
+  width: 72px;
+  height: 72px;
+  margin-left: 45.5;
+  margin-right: 45.5;
+  /*
+  margin-left: auto;
+  margin-right: auto;
+  */
+}
+
+.Icons_Container span {
+  width: 163px;
+  height: 18px;
+  padding-top: 14px;
+  display: block;
+  text-align: center;
+}

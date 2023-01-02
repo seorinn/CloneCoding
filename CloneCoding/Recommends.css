@@ -1,0 +1,51 @@
+.Recommends_Container{
+  width: 962px;
+  height: 237px;
+  display: block;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  padding-top: 78px;
+  padding-right: 31px;
+  padding-left: 31px;
+}
+.Recommends_Container box{
+  display:flex;
+}
+.Recommends_Container li{
+  width: 500px;
+  height: 162px;
+  margin-bottom: 16;
+  margin-left: 16;
+  overflow: hidden;
+  float: left;
+  position: relative;
+  padding-right: 24px;
+  padding-left: 186px;
+  border: 1px solid rgba(0,0,0,0.08);
+  box-sizing: border-box;
+}
+
+.Recommends_Container li img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 162px;
+  height: 162px;
+}
+
+.Recommends_Container li strong {
+  display: block;
+  padding: 38px 0 14px 0;
+  font-size: 20px;
+  line-height: 1;
+  font-weight: normal;
+  color: rgb(0,121,107);
+}
+.Recommends_Container h2{
+  font-size: 24px;
+  margin-bottom: 35px;    
+  color: rgba(0,0,0,0.87);
+  font-weight: bold;
+}
