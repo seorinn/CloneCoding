@@ -1,0 +1,53 @@
+.Footer{
+    height: 356px;
+    padding: 62px 31px 40px 31px;
+    margin-top: 120px;
+    color: rgba(0,0,0,0.38);
+    background: rgb(245,245,245);
+    font-size: 12px;
+    border-top: 1px solid rgba(0,0,0,0.08);
+}
+.Footer ul{
+    width: 1024px;
+    margin: 0px auto;
+    height: 22px;
+    line-height: normal;
+}
+.Footer li{
+    float: left;
+    margin-bottom: 5px;
+    line-height: normal;
+}
+.Footer li span{
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    width: 24px;
+    text-align: center;
+}
+.Footer p{
+    width:1024px;
+    margin: 0px auto;
+    height: 20px;
+    padding-top: 37px;
+    padding-bottom: 24px;
+}
+.Footer p b{
+    display: inline-block;
+    margin-right:10px;
+}
+.Footer p span{
+    display: inline-block;
+}
+.Footer address{
+    line-height: 22px;
+    width:1024px;
+    margin: 0px auto;
+}
+.Footer address span{
+    display: block;
+    padding-bottom: 7px;
+}
+.Footer address span:nth-child(even){
+    padding-top:7px;
+}

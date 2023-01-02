@@ -1,0 +1,35 @@
+.Ads_Container {
+    width: 962px;
+    height: 208px;
+    margin: 24px auto 0px auto;
+}
+.Ads_Container li{
+    width: 471px;
+    height: 198px;
+    border: 1px;
+    padding-left: 24px;
+    padding-right: 250px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(0,0,0,0.08);
+    box-sizing: border-box;
+}
+.Ads_Container li:nth-child(even){
+    margin-left: 16px;
+  }
+.Ads_Container img{
+    width: 250px;
+    height: 200px;
+    object-fit: fill;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.Ads_Container li strong {
+    display: block;
+    padding: 38px 0 14px 0;
+    font-size: 22px;
+    font-weight:bold;
+    color: rgb(216, 0, 0);
+  }

@@ -1,54 +1,40 @@
-header {
+.Header {
   width: 100vw;
-  display: flex;
   height: 72px;
-  padding: 10px 10vw;
   box-sizing: border-box;
   align-items: center;
   background: #f7323f;
 }
-.Header_Left {
-  justify-content: space-between;
-}
-.Header_Left ul {
+.Header section{
+  position:relative;
   display: flex;
-  position: absolute;/*
-  align-items: center;
-  justify-content: start;*/
+  width:1024px;
+  height:64px;
+  margin: 0px auto;
 }
-
-.Header_Left li {/*
-  font-size: 16px;*/
-  font-size: 1.5em;
-  font-weight: bold;
-  left: 500px;
-  /*margin-right: 10px;*/
-  color: rgba(255,255,255,0.8);
-  margin-left: 130px;
-}
-
-.Header_Middle {
-  justify-content: center;
-}
-
-.Header_Right {
-  justify-content: end;
-}
-
-.Header_Right ul {
-  display: flex;/*
-  margin-right: 30px;
-  align-items: center;
-  display: inline-block;*/
+.Header section ul{
+  display: inline-block;
   position: absolute;
-  top: 27px;
-  margin-right: 130px;
+  top:26px;
+  right:31px;
 }
-
-.Header_Right li {
+.Header section li{
+  display: inline-block;
+  position: relative;
   font-size: 16px;
   margin-left: 30px;
   vertical-align: top;
   color: rgba(255,255,255,0.8);
 }
-
+.Header section h1{
+  position:absolute;
+  top: 20px;
+  left: 31px;
+  height: 20px;
+  margin: 0;
+  display: flex;
+  float:left;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: rgba(255,255,255,0.8);
+}

@@ -1,3 +1,4 @@
+/*
 .Icons_Container {
   width: 1168.800px;
   height: 168px;
@@ -23,10 +24,6 @@
   height: 72px;
   margin-left: 45.5;
   margin-right: 45.5;
-  /*
-  margin-left: auto;
-  margin-right: auto;
-  */
 }
 
 .Icons_Container span {
@@ -35,4 +32,44 @@
   padding-top: 14px;
   display: block;
   text-align: center;
+}
+*/
+.Icons_Container {
+  width: 100vw;
+  height: 107px;
+  padding: 32px 0px 29px 22px;
+  /*
+  box-sizing: border-box;
+  */
+  /*
+  align-items: center;
+  */
+}
+
+.Icons_Container ul{
+  overflow: hidden;
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.Icons_Container li {  
+  width: 163px;
+  height: 107px;
+  float: left;
+  display: block;
+  font-size: 18px;
+  color: rgba(0,0,0,0.56);
+  text-align: center;
+}
+.Icons_Container img {
+  display: inline-block;
+  width: 72px;
+  height: 72px;
+  margin: 0 auto;
+}
+
+.Icons_Container li span {
+  height: auto;
+  padding-top: 14px;
+  display: block;
 }

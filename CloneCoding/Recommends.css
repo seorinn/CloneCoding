@@ -1,23 +1,17 @@
-.Recommends_Container{
+.Recommends_Container {
   width: 962px;
-  height: 237px;
-  display: block;
-  align-items: center;
+  height: 250px;
+  padding: 78px 31px 0px 31px;
   margin-left: auto;
   margin-right: auto;
-  overflow: hidden;
-  padding-top: 78px;
-  padding-right: 31px;
-  padding-left: 31px;
+  display: block;
+  align-items: center;
 }
-.Recommends_Container box{
-  display:flex;
-}
-.Recommends_Container li{
-  width: 500px;
+
+.Recommends_Container li {
+  width: 473px;
   height: 162px;
   margin-bottom: 16;
-  margin-left: 16;
   overflow: hidden;
   float: left;
   position: relative;
@@ -25,6 +19,10 @@
   padding-left: 186px;
   border: 1px solid rgba(0,0,0,0.08);
   box-sizing: border-box;
+}
+
+.Recommends_Container li:nth-child(odd){
+  margin-left: 16px;
 }
 
 .Recommends_Container li img {
@@ -44,7 +42,7 @@
   color: rgb(0,121,107);
 }
 .Recommends_Container h2{
-  font-size: 24px;
+  font-size: 22px;
   margin-bottom: 35px;    
   color: rgba(0,0,0,0.87);
   font-weight: bold;

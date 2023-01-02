@@ -1,0 +1,10 @@
+.AppDownload_Container {
+    width: 962px;     
+    margin: 64px auto 78px auto;
+  }
+
+.AppDownload_Container img{
+    width: 962px;
+    height: 320px;
+    object-fit: contain;
+}

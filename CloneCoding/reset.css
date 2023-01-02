@@ -7,11 +7,6 @@ li {
   list-style: none;
 }
 
-.Header_Cell {
-  width: 33.3%;
-  display: flex;
-}
-
 ul {
   padding: 0;
 }

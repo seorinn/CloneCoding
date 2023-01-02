@@ -1,0 +1,15 @@
+.Events_Container {
+    width: 962px;
+    margin: 0 auto;
+}
+.Events_Container img{
+    width: 100%;
+    height: 192px;
+    object-fit:fill;
+}
+.Events_Container h2{
+    font-size: 22px;
+    margin-bottom: 35px;    
+    color: rgba(0,0,0,0.87);
+    font-weight: bold;
+}
